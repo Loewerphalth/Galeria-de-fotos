@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria de Fotos</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <header>
+    <h1>GALERIA DE FOTOS</h1>
+    <button class="btn-nova-imagem">NOVA IMAGEM +</button>
+    <button class="btn-limpar-galeria">LIMPAR GALERIA 🗑️</button>
+  </header>
+
+  <section class="formulario">
+    <div class="preview-area">
+        <p>Preview da Imagem:</p>
+        <img class="preview-img" src="" alt="Preview" style="max-width: 300px; display: none; margin-top: 10px;">
+    </div>
+    <h2>INSERIR NOVA IMAGEM</h2>
+    <div class="input-area">
+      <input type="text" placeholder="URL da imagem" class="input-url">
+      <button class="btn-adicionar">ADICIONAR</button>
+      <button class="btn-cancelar">CANCELAR</button>
+    </div>
+  </section>
+
+  <section class="galeria">
+      <p class="mensagem-vazia" style="text-align: center; font-weight: bold; display: none;">Nenhuma imagem cadastrada.</p>
+    <!-- Imagens vão aqui -->
+  </section>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" ></script>
+  <script src="script/script.js"></script>
+</body>
+</html>
